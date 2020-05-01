@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/DisneyMotions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Foodium" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GoldMovies" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JetcomposeSample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MVIAndroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-databinding" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-showcase" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/material-components-android-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/playground" vcs="Git" />
+  </component>
+</project>
