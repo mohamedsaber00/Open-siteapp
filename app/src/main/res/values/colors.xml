@@ -2,8 +2,8 @@
 <resources>
 
     <!-- Main theme colors -->
-    <color name="colorPrimary">#fff</color>
-    <color name="colorPrimaryDark">#7d7d7d</color>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#007ac1</color>
     <color name="colorAccent">#FF4081</color>
 
     <!-- Secondary theme colors -->
@@ -19,6 +19,11 @@
     <color name="grey3">#a8a8a8</color>
     <color name="grey4">#7d7d7d</color>
     <color name="grey5">#5c5c5c</color>
+
+
+    <color name="text_colot_on_background">#fff</color>
+    <color name="semi_black">#80000000</color>
+
 
     <color name="default_background_color">#EEEEEE</color>
 

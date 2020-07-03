@@ -2,12 +2,14 @@ package com.msaber.openapiapp.ui.auth
 
 import android.os.Bundle
 import android.view.View
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.msaber.openapiapp.di.Injectable
 import com.msaber.openapiapp.viewmodels.ViewModelProviderFactory
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 
-abstract class BaseAuthFragment : DaggerFragment(){
+abstract class BaseAuthFragment : Fragment(),Injectable{
 
     public val TAG = "BaseAuthFragment"
 
@@ -21,5 +23,11 @@ abstract class BaseAuthFragment : DaggerFragment(){
         viewModel = activity?.run {
             ViewModelProvider(this,providerFactory).get(AuthViewModel::class.java)
         }?: throw Exception("invalid Activity")
+        //when ever a new fragment is in the view cancel active jobs
+        cancelActiveJobs()
+    }
+
+     fun cancelActiveJobs(){
+        viewModel.cancelActiveJobs()
     }
 }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OpenAPI</string>
+    <string name="app_name">Open Site</string>
 
     <!-- Intent extras -->
     <string name="auth_token">auth_token</string>
@@ -28,14 +28,14 @@
     <string name="home">Home</string>
     <string name="create">Create</string>
 
-    <string name="fragment_create_blog">Create</string>
-    <string name="fragment_update_blog">Update</string>
-    <string name="fragment_view_blog">View</string>
-    <string name="fragment_account">Account</string>
+    <string name="fragment_create_blog">Create new blog</string>
+    <string name="fragment_update_blog">Update blog</string>
+    <string name="fragment_view_blog">Blog</string>
+    <string name="fragment_account">Your Account</string>
     <string name="fragment_change_password">Change password</string>
-    <string name="fragment_blog">Blog</string>
+    <string name="fragment_blog">Recent blogs</string>
     <string name="save_changes">Save changes</string>
-    <string name="fragment_update_account">Update account</string>
+    <string name="fragment_update_account">Update account info</string>
     <string name="arg_email">arg_email</string>
     <string name="arg_username">arg_username</string>
     <string name="enter_a_username">Enter a username</string>
@@ -65,19 +65,9 @@
     <string name="text_info">Info</string>
     <string name="delete">Delete</string>
 
-    <string name="AuthNavHost">AuthNavHost</string>
-    <string name="AccountFragmentFactory">AccountFragmentFactory</string>
-    <string name="BlogFragmentFactory">BlogFragmentFactory</string>
-    <string name="CreateBlogFragmentFactory">CreateBlogFragmentFactory</string>
-
     <string name="forgot_password">Forgot Password</string>
     <string name="launcher">Launcher</string>
     <string name="login">Login</string>
-    <string name="text_login">Login</string>
-    <string name="text_register">Register</string>
-    <string name="text_forgot_password">Forgot password</string>
-    <string name="process_death_state">process_death_state</string>
-    <string name="invalid_login_credentials">Invalid login</string>
 
 </resources>
 

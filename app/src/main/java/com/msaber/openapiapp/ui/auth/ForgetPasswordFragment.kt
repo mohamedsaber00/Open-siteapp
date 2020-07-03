@@ -2,6 +2,7 @@ package com.msaber.openapiapp.ui.auth
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.opengl.Visibility
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -68,7 +69,7 @@ class ForgetPasswordFragment : BaseAuthFragment() {
             0f)
             animation.duration = 500
             password_reset_done_container.startAnimation(animation)
-            password_reset_done_container.visible()
+            password_reset_done_container.visibility = View.VISIBLE
         }
     }
 

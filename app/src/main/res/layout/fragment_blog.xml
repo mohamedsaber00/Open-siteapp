@@ -5,7 +5,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        tools:context=".ui.main.blog.BlogFragment">
+        tools:context=".ui.main.blog.BlogFragment"
+
+        >
 
     <View android:layout_width="0.5dp"
             android:layout_height="0.5dp"
@@ -16,12 +18,14 @@
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/swipe_refresh">
+            android:id="@+id/swipe_refresh"
+            >
 
         <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/blog_post_recyclerview" />
+                android:id="@+id/blog_post_recyclerview"
+                />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 

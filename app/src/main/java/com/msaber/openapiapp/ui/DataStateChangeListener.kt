@@ -1,6 +1,14 @@
 package com.msaber.openapiapp.ui
 
-interface DataStateChangeListener {
-    //any data state
+import com.msaber.openapiapp.ui.DataState
+
+interface DataStateChangeListener{
+
     fun onDataStateChange(dataState: DataState<*>?)
+
+    fun expandAppBar()
+
+    fun hideSoftKeyboard()
+
+    fun isStoragePermissionGranted(): Boolean
 }

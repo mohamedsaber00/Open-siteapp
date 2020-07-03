@@ -109,7 +109,6 @@
                     android:id="@+id/delete_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/red_button_drawable"
                     android:text="@string/delete"
                     android:textAllCaps="false"
                     android:textColor="#fff"
